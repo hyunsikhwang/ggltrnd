@@ -8,13 +8,13 @@ import streamlit as st
 
 
 st.set_page_config(
-    page_title="Google Trend for 2021 대한민국 대선",
+    page_title="Google Trend for 2022년 제20대 대한민국 대선",
     page_icon=":shark:",
     layout="wide",
     initial_sidebar_state="expanded"
     )
 
-st.title("Google Trend for 2021 대한민국 대선")
+st.title("Google Trend for 2022년 제20대 대한민국 대선")
 
 pytrend = TrendReq()
 
