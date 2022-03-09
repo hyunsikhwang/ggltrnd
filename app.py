@@ -29,7 +29,7 @@ curYear = SeoulTime.year
 curHour = SeoulTime.hour
 
 kw_list_default = ['이재명', '윤석열', '안철수', '허경영', '심상정', '홍준표', '김건희']
-kw_list = st.multiselect('대선 후보 선택', options=kw_list_default, default=['이재명', '윤석열', '안철수', '김건희'])
+kw_list = st.multiselect('대선 후보 선택', options=kw_list_default, default=['이재명', '윤석열'])
 
 pytrend.build_payload(kw_list=kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
 
